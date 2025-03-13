@@ -1,0 +1,19 @@
+h1{
+    animation: transisao 1s linear;
+}
+img{animation: imagem 2s linear;}
+p{
+    animation: transisao-inversa 1s linear;
+}
+@keyframes transisao {
+    0%{transform: translateY(-100px);}
+    
+}
+@keyframes imagem {
+    0%{
+        transform: translateX(-100px);
+    }
+}
+@keyframes transisao-inversa {
+    0%{transform: translateY(500px);}
+}

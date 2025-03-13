@@ -1,0 +1,31 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    position: relative;
+
+    & div{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+
+        
+    }
+    & .blue{
+        background-color: blue;
+        top: 5px;
+        right: 3px;
+        z-index: 1;
+    }
+    & .black{
+        background:black ;z-index: 2;
+        top: 7px;
+        right: 5px;
+    }
+    & .red{
+        background: red;
+        z-index: 3;
+    }
+}

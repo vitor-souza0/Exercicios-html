@@ -1,0 +1,17 @@
+.caixa{
+    border: 10px solid #e5e5e5;
+    border-top-color: #db8851;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    animation: roda 0.8s infinite;
+}
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    transform: scale(5);}
+    @keyframes roda {
+        0%{transform: rotate(-1turn);}
+    }
